@@ -1,0 +1,147 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar {
+    background-color: #e4e4e4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.navbar-logo > h1 {
+    background-color: #00a000;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: medium;
+    color: white;
+}
+.navbar-logo a {
+    color: white;
+}
+.navbar-logo a:hover {
+    color: #e300aa;
+}
+ul > li{
+    padding: 10px;
+    display: flex;
+}
+.navbar-links {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    font-size: 20px;
+    font-weight: medium;
+}
+.navbar-links a {
+    color: black;
+}
+.navbar-links a:hover {
+    color: #00a000;
+    text-decoration: underline;
+}
+.navbar-links a:active {
+    color: #0040a0;
+    text-decoration: line-through;
+}
+.hero {
+    background-color: #e4e4e4;
+    display: flex;
+    padding: 30px;
+    width: 100%;
+}
+.hero-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.hero-boxone, .hero-boxtwo, .hero-boxthree{
+    border: 2px solid #000000;
+    padding: 10px;
+    margin: 2px;
+    width: 95%;
+}
+.hero-box-right {
+    border: 2px solid #000000;
+    padding: 10px;
+    width: 95%;
+
+}
+.hero-cta {
+    background-color: #ffffff;
+    display: flex;
+    padding: 30px;
+    width: 100%;
+}
+.hero-cta-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.hero-cta-boxone {
+    border: 2px solid #000000;
+    padding: 10px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 95%;
+}
+.hero-cta-boxtwo {
+    border: 2px solid #000000;
+    padding: 10px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 95%;
+}
+.hero-cta-boxthree {
+    border: 2px solid #000000;
+    padding: 10px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 95%;
+}
+h1 {
+    font-size: 24px;
+    font-weight: medium;
+    color: #000000;
+}
+p {
+    font-size: 16px;
+    font-weight: lighter;
+    color: #909090;
+    padding: 10px;
+}
+.hero-cta-boxone > h1 {
+    font-size: 40px;
+    font-weight: medium;
+    color: #909090;
+    padding: 10px;
+}
+.hero-cta-boxtwo > h1 {
+    font-size: 40px;
+    font-weight: medium;
+    color: #909090;
+    padding: 10px;
+}
+.hero-cta-boxthree > h1 {
+    font-size: 40px;
+    font-weight: medium;
+    color: #909090;
+    padding: 10px;
+}
